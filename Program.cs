@@ -32,7 +32,7 @@ namespace T4_TeamBelaProblemOnKattis_Group_
                 const int MIN_HAND = 1;
                 const int MAX_HAND = 100;
                 // Get the input of hand and suit value from the user
-                Console.Write("Please Enter the the number of hands and the value of suit: ");
+                // Console.Write("Please Enter the the number of hands and the value of suit: ");
                 // Declare the variale to get the input, which is shown in uppercase, from the user
                 string input = Console.ReadLine().ToUpper();
                 // Declare the variale for the space in the user input
