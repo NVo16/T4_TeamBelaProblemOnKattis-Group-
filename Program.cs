@@ -1,4 +1,11 @@
-﻿using System;
+﻿/* 
+    Programmers: Alpha Team
+    Project: Team Bela Problem on Kattis
+    Description: This C# Console application code demonstrates the use of iterative statements 
+    and Boolean expressions to solve the problem on Kattis.
+*/
+
+using System;
 
 namespace T4_TeamBelaProblemOnKattis_Group_
 {
@@ -6,13 +13,6 @@ namespace T4_TeamBelaProblemOnKattis_Group_
     {
         static void Main(string[] args)
         {
-            /* 
-                Programmers: Alpha Team
-                Project: Team Bela Problem on Kattis
-                Description: This C# Console application code demonstrates the use of iterative statements 
-                and Boolean expressions to solve the problem on Kattis.
-            */
-
             /*
                 Use the try-catch block to validate user input so the catch block will handle 
                 the error and display the message if user enters inappropriate input
@@ -32,7 +32,7 @@ namespace T4_TeamBelaProblemOnKattis_Group_
                 const int MIN_HAND = 1;
                 const int MAX_HAND = 100;
                 // Get the input of hand and suit value from the user
-                // Console.Write("Please Enter the the number of hands and the value of suit: ");
+                Console.Write("Please Enter the the number of hands and the value of suit: ");
                 // Declare the variale to get the input, which is shown in uppercase, from the user
                 string input = Console.ReadLine().ToUpper();
                 // Declare the variale for the space in the user input
