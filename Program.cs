@@ -32,10 +32,10 @@ namespace T4_TeamBelaProblemOnKattis_Group_
                 const int MIN_HAND = 1;
                 const int MAX_HAND = 100;
                 // Get the input of hand and suit value from the user
-                // Console.Write("Please Enter the the number of hands and the value of suit: ");
-                // Declare the variale to get the input, which is shown in uppercase, from the user
+                // Console.Write("Please Enter the number of hands and the value of suit: ");
+                // Declare the variable to get the input, which is shown in uppercase, from the user
                 string input = Console.ReadLine().ToUpper();
-                // Declare the variale for the space in the user input
+                // Declare the variable for the space in the user input
                 int spaceIndex = input.IndexOf(' ');
                 // Declare the variables to get the value of hands and suit and be parsed as integer literal from the input
                 int inputHand = int.Parse(input.Substring(0, spaceIndex));
@@ -77,7 +77,7 @@ namespace T4_TeamBelaProblemOnKattis_Group_
                             string inputCard = Console.ReadLine().ToUpper();
                             /*
                                 Use the conditional if/else statement to check if the user enters two-character 
-                                card description. If the user enters two-charater description, check if the 
+                                card description. If the user enters two-character description, check if the 
                                 entered value is in the suit and number array. If not, the user is asked to exit 
                                 the program and try again.
                             */
